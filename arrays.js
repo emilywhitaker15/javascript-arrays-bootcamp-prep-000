@@ -22,3 +22,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array = array.push(element)
   return array
 }
+
+function accessElementInArray(element, array) {
+  return array[element]
+}
