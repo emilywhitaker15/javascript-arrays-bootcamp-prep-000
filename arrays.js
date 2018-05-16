@@ -30,3 +30,7 @@ function accessElementInArray(element, array) {
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift()
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.pop()
+}
